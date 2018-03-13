@@ -1,0 +1,136 @@
+body {
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#ballsWrapper {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.balls {
+  background-color: #eee;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  margin: 5px;
+  font-family: 'Rammetto One', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.ballsText {
+  margin: auto;
+}
+
+#menuWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#playButton {
+  border: none;
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  color: #222;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menuStuff {
+  text-align: center;
+  margin: 0;
+  background-color: #111;
+  width: 100px;
+  height: 100px;
+  color: #eee;
+  font-family: 'Nunito', sans-serif;
+}
+
+#userInWrapper {
+  font-family:'Nunito', sans-serif;
+  color: #eee;
+  margin: auto;
+  text-align: center;
+}
+
+.numInput {
+  width: 30px;
+  height: 20px;
+  margin: 5px;
+  border: none;
+}
+
+#wagerWrapper {
+  width: 300px;
+  height: 100px;
+  background-color: #111;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#wagerInputBlock {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#wagerInput {
+  width: 80px;
+  height: 20px;
+  margin: auto;
+  border: none;
+}
+
+#wagerTextBox {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  color: #eee;
+  font-family: 'Nunito', sans-serif;
+  border-top: 1px solid orange;
+}
+
+#wagerText {
+  margin: auto;
+}
+
+#wagerErrorWrapper {
+  width: 300px;
+  height: 50px;
+  background-color: #222;
+  color: red;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#wagerError {
+  margin: auto;
+}
+
+#ruleSet {
+  background-color: #222;
+  color: #eee;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+}
+
+.ruleText {
+  margin: auto;
+}
