@@ -5,7 +5,19 @@ body {
   justify-content: center;
 }
 
+html, body {
+  width: 100%;
+  margin: 0;
+}
+
 #ballsWrapper {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.ballSplit{
   display: flex;
   flex-direction: row;
   margin: auto;
@@ -32,6 +44,9 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-top: 10px;
+  width: 300px;
+  margin: auto;
+  min-width: 0;
 }
 
 #playButton {
@@ -133,4 +148,5 @@ body {
 
 .ruleText {
   margin: auto;
+  text-align: center;
 }

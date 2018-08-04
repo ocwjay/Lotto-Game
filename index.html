@@ -7,19 +7,23 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito|Rammetto+One" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
   </head>
-  
+
   <body>
     <!--So we're gonna want 6 spots that will end up being the balls-->
     <!--Then we'll want a menu-ish type thing that will have a "roll"????? button and a scoreboard. Also payouts. People love money symbols.-->
     <div id="ballsWrapper">
-      <div id="ballOne" class="balls"><p id="ballOneText" class="ballsText"></p></div>
-      <div id="ballTwo" class="balls"><p id="ballTwoText" class="ballsText"></p></div>
-      <div id="ballThree" class="balls"><p id="ballThreeText" class="ballsText"></p></div>
-      <div id="ballFour" class="balls"><p id="ballFourText" class="ballsText"></p></div>
-      <div id="ballFive" class="balls"><p id="ballFiveText" class="ballsText"></p></div>
-      <div id="ballSix" class="balls"><p id="ballSixText" class="ballsText"></p></div>
+      <div class="ballSplit">
+        <div id="ballOne" class="balls"><p id="ballOneText" class="ballsText"></p></div>
+        <div id="ballTwo" class="balls"><p id="ballTwoText" class="ballsText"></p></div>
+        <div id="ballThree" class="balls"><p id="ballThreeText" class="ballsText"></p></div>
+      </div>
+        <div class="ballSplit">
+          <div id="ballFour" class="balls"><p id="ballFourText" class="ballsText"></p></div>
+          <div id="ballFive" class="balls"><p id="ballFiveText" class="ballsText"></p></div>
+          <div id="ballSix" class="balls"><p id="ballSixText" class="ballsText"></p></div>
+        </div>
     </div>
-    
+
     <div id="userInWrapper">
       <p>Wager and guess, then hit play!</p>
       <input type="text" id="numInOne" class="numInput">
@@ -29,13 +33,13 @@
       <input type="text" id="numInFive" class="numInput">
       <input type="text" id="numInSix" class="numInput">
     </div>
-    
+
     <div id="menuWrapper">
       <button type="button" id="playButton">Play!</button>
       <p id="score" class="menuStuff"><br/>Score:<br /></p>
       <p id="balance" class="menuStuff">Balance:<br /></p>
     </div>
-    
+
     <div id="wagerWrapper">
       <div id="wagerTextBox">
         <p id="wagerText">Wager:</p>
@@ -48,17 +52,18 @@
       <p id="wagerError"></p>
     </div>
     <div id="ruleSet">
-      <p class="ruleText">Welcome to the Lotto!<br /></p>
-      <p class="ruleText">The Lotto rules are as follows:<br /></p>
-      <p class="ruleText">In the spaces under the six balls and above the play button, enter six numbers between 1 and 49.<br /></p>
-      <p class="ruleText">You get to start out with $200, but in order to roll the balls, you need to wager something.<br /></p>
-      <p class="ruleText">The wager must be 1 or larger.<br /></p>
-      <p class="ruleText">Once the wager is settled, the balls will roll. If your numbers match a ball, you make your wager back times 6.<br /></p>
-      <p class="ruleText">Basically, if you wager 10, and you get a matching ball, you'll make 60.<br /></p>
-      <p class="ruleText">When you run out of money, you can no longer play.<br /></p>
-      <p class="ruleText">Have fun!<br /></p>
+      <p class="ruleText">
+        Welcome to the Lotto!<br />
+        The Lotto rules are as follows:<br />
+        In the spaces under the six balls and above the play button, enter six numbers between 1 and 49.<br />
+        You get to start out with $200, but in order to roll the balls, you need to wager something.<br />
+        The wager must be 1 or larger.<br />
+        Once the wager is settled, the balls will roll. If your numbers match a ball, you make your wager back times 6.<br />
+        Basically, if you wager 10, and you get a matching ball, you'll make 60.<br />
+        When you run out of money, you can no longer play.<br />
+        Have fun!<br /></p>
     </div>
-    
+
     <script src="main.js"></script>
   </body>
 </html>
